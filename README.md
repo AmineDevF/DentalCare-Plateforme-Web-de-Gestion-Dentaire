@@ -2,7 +2,7 @@
 
 ## 📘 Contexte du projet
 
-**DentalCare** est une application web développée avec **Laravel 11** et **Blade**, visant à gérer l’activité d’un ou plusieurs cabinets dentaires. Elle permet :
+**DentalCare** est une application web développée avec **Laravel** et **Blade**, visant à gérer l’activité d’un ou plusieurs cabinets dentaires. Elle permet :
 
 - aux **patients** de prendre rendez-vous en ligne,
 - aux **praticiens** (dentistes) de gérer leur planning et les dossiers médicaux,
@@ -24,7 +24,7 @@ L’application suit l’architecture **MVC**, sans utilisation d’API externe,
 
 ### 🔐 Authentification & Rôles
 
-- Authentification sécurisée avec **Laravel Breeze** ou **Jetstream**.
+- Authentification sécurisée .
 - Gestion des rôles : `patient`, `praticien`, `admin`.
 - Redirection automatique vers un **dashboard** selon le rôle.
 
